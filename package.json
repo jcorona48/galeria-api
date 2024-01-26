@@ -9,13 +9,13 @@
   "type": "module",
   "name": "galeria-api",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "node --env-file=.env --watch app.js",
-    "bunDev": "bun --watch app.js --env=.env"
+    "start": "node index.js",
+    "dev": "node --env-file=.env --watch index.js",
+    "bunDev": "bun --watch index.js --env=.env"
   },
   "keywords": [
     "ISC"
